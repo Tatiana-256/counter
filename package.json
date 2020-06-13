@@ -2,6 +2,7 @@
   "name": "test-week-1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tatiana-256.github.io/counter/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -19,6 +20,8 @@
     "typescript": "^3.9.2"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
