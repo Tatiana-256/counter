@@ -1,0 +1,10 @@
+button {
+    height: 60px;
+    width: 200px;
+    margin: 0px 20px;
+    font-family: "Adobe Arabic";
+    font-size: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 20px
+}
